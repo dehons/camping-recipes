@@ -1,7 +1,13 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 #Front-page {
     background-image: url("./images/totk-abyss.jpg");
     background-size: cover;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .Title-heading {
@@ -11,4 +17,47 @@
 
 body {
     background-color: rgb(173, 233, 233);
+}
+
+.Front-page-bullets {
+    margin: 20px;
+    font-size: large;
+    background-color: rgba(2, 25, 36, 0.05);
+    width: 250px;
+
+}
+
+.recipe-description{
+    border: solid white 4px;
+    box-sizing: border-box;
+    background-color: #6dbdbd;;
+    padding: 10px;
+
+}
+
+.recipe-ingredients{
+    border: solid white 4px;
+    box-sizing: border-box;
+    background-color: #6dbdbd;;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding: 10px;
+
+}
+.recipe-steps{
+    border: solid white 4px;
+    box-sizing: border-box;
+    background-color: #6dbdbd;;
+    padding: 10px
+
+}
+
+.outside-recipe-section {
+    border: solid #548CA8 4px;
+
+}
+
+.img-center {
+
+
 }
